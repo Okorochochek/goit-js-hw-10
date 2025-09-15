@@ -1,0 +1,81 @@
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 16px;
+    width: 360px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.input-delay {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 40px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: flex;
+    gap: 48px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #808080;
+    margin-bottom: 8px;
+ 
+}
+
+fieldset:hover{
+    border-color:#000;
+}
+
+legend {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.radio-group {
+    display: flex;
+    margin: auto;
+    gap: 48px; 
+    padding: 8px 16px;
+}
+
+.radio-group label {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4e75ff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 40px;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
